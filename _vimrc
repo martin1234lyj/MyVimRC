@@ -5,6 +5,7 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+set ic!	"igonre case
 autocmd GUIEnter * simalt ~x "auto maximize at startup
 set guifont=consolas:h16
 set nobackup
