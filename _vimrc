@@ -5,6 +5,7 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+autocmd GUIEnter * simalt ~x "auto maximize at startup
 set guifont=consolas:h16
 set nobackup
 set diffexpr=MyDiff()
