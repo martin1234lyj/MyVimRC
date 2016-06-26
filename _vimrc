@@ -5,6 +5,7 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+set guifont=consolas:h16
 set nobackup
 set diffexpr=MyDiff()
 function MyDiff()
