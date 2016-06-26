@@ -2,7 +2,10 @@ set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+syntax enable
+colorscheme monokai
 
+set nobackup
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
