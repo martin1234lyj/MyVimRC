@@ -5,6 +5,9 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk
+
 augroup filetypedetect 
     au BufNewFile,BufRead *.nsh setf nsis "enable nsh syntax hightlight
 augroup END 
