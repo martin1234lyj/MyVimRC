@@ -4,6 +4,7 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 syntax enable
 colorscheme monokai
+set nu!
 
 let &termencoding=&encoding
 set fileencodings=utf-8,gbk
