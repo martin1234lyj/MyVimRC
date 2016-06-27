@@ -5,6 +5,10 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+augroup filetypedetect 
+    au BufNewFile,BufRead *.nsh setf nsis "enable nsh syntax hightlight
+augroup END 
+
 set ic!	"igonre case
 autocmd GUIEnter * simalt ~x "auto maximize at startup
 set guifont=consolas:h16
