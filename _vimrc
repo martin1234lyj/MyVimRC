@@ -4,6 +4,7 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 syntax enable
 colorscheme monokai
+set nu!
 
 " calendar
 map <F8> :Calendar<cr>
