@@ -5,6 +5,9 @@ behave mswin
 syntax enable
 colorscheme monokai
 
+" calendar
+map <F8> :Calendar<cr>
+
 let &termencoding=&encoding
 set fileencodings=utf-8,gbk
 
