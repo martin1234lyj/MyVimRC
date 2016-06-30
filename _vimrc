@@ -9,6 +9,10 @@ set nu!
 " calendar
 map <F8> :Calendar<cr>
 
+autocmd vimenter * NERDTree
+map <F7> :NERDTreeToggle<CR>
+imap <F7> <ESC>:NERDTreeToggle<CR>
+
 let &termencoding=&encoding
 set fileencodings=utf-8,gbk
 
